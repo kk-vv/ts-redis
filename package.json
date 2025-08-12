@@ -1,0 +1,36 @@
+{
+  "name": "@move.box/redis-service",
+  "version": "1.0.0",
+  "description": "redis utils",
+  "main": "dist/RedisService.js",
+  "types": "dist/RedisService.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "redis",
+    "utils",
+    "bigint json"
+  ],
+  "repository": {
+    "type": "url",
+    "url": "https://github.com/kk-vv/ts-redis.git"
+  },
+  "author": "kk-vv",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/redis": "^4.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "redis": "^5.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
