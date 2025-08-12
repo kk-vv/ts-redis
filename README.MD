@@ -1,5 +1,11 @@
 # RedisService 
 
+## Install
+
+```
+npm i @move.box/redis-service
+```
+
 ## Usage 
 
 - setString
